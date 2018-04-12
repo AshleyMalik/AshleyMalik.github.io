@@ -1,0 +1,121 @@
+h5 {
+  color: turquoise;
+}
+.boxes {
+  width: 100px;
+  height: 70px;
+}
+.navigation ul {
+  margin: 0;
+  padding: 10;
+  text-align: left;
+}
+h1 {
+  border: 1px dotted red;
+  color: lime green;
+  font-size: 14px;
+  line-height: 48px;
+}
+h1 {
+  color: turquoise;
+  font-size: 42px;
+  font-weight: 60;
+  text-align: left;
+}
+ h1{
+  color: hotpink;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+}
+.share {
+  border: 1px orange;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.share a {
+  background: blue;
+  border: 1px blue;
+  border-radius: 3px;
+  color: pink;
+  display: inline-block;
+  margin: 4px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: pink;
+  border: 1px blue;
+  color: blue;
+}
+
+li {
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+li:hover {
+  color: #DBE9EE;
+}
+
+a:hover {
+  padding: 14px 25px;
+  display: inline-block;
+font-size:150%;
+}
+ul {
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: left;
+}
+img {
+    margin-left: 50px;
+    border-left: white;
+    padding: 1em;
+overflow: hidden;
+}
+h5 {
+  color: white;
+  font-size: 25px;
+  line-height: 48px;
+}
+td {
+ font-size: 27px;
+ color: orange;
+}
+p {
+ font-size: 27px;
+ color: white;
+}
+<p><p> {
+ font-size: 20px;
+ color: orange;
+}
+body background {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body background.fade-out {
+    opacity: 0;
+    transition: none;
+}
+.column {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    height: 100px; 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
