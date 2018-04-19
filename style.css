@@ -224,3 +224,6 @@ footer {
   color: #999999;
   text-align: center;
 }
+@-ms-viewport {
+  width: device-width ;
+}
