@@ -18,6 +18,56 @@
  </body>
 </html>
 
+  
+  <!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+</style>
+</head>
+<body>
+
+<h2>Images Side by Side</h2>
+<p>How to create side-by-side images with the CSS float property:</p>
+
+<div class="row">
+  <div class="column">
+    <img src="img_fjords.jpg" alt="Fjords" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img_forest.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
+
+  
+  
+  
+  
+  
+  
+  
 <img src="imageLocation" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
   <img src="https://pmcvariety.files.wordpress.com/2015/12/fla208b_0295b.jpg?w=800&h=533&crop=1" height="300" width="300"
   
